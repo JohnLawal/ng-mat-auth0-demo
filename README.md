@@ -1,7 +1,9 @@
-# AngularMaterialTutorial
+# AngularMaterial-Auth0 Demo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
 
+It makes use of auth0-js to authenticate users. 
+To test it, you need to sign up with auth0, create an application and then use your own client-ID/domain-ID in the auth file.
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

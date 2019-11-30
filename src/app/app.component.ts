@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-material-tutorial';
+  title = 'angular-material-auth0-demo';
   constructor(private auth: AuthService) {
     auth.handleAuthentication();
   }
